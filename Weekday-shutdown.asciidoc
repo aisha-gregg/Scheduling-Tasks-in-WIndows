@@ -1,0 +1,43 @@
+
+
+
+== Automating your computer's shutdown through Task Scheduler ==
+
+*To ensure the safe and efficient shutdown procedure of your computer system please use the following steps:*
+
+
+*Step 1:* Click the start menu on the bottom left-hand corner on your computer screen
+
+image::sunset.jpg[Sunset]
+
+*Step 2:* To the bottom of the menu list you will see a search box. In this box enter the words 'Task scheduler'
+
+image::sunset.jpg[Sunset]
+
+*Step 3:* Click gion the suggested application result called 'Task Scheduler'
+image::sunset.jpg[Sunset]
+
+*Step 4:* On the right-hand side of the task-scheduler, click on the options 'actions'
+image::sunset.jpg[Sunset]
+*Step 5:* Click on 'Create a basic task'
+image::sunset.jpg[Sunset]
+*Step 6:* Name the task (for example,'shutdown')
+image::sunset.jpg[Sunset]
+
+*Step 7:* Click on the trigger option under create task and select the 'daily' option
+image::sunset.jpg[Sunset]
+
+*Step 8:* Under the daily option select the start times of shutdown for each day (for example, 11 pm)
+image::sunset.jpg[Sunset]
+
+*Step 9:* Under the 'action' option select 'Start a program' and then click 'next'
+image::sunset.jpg[Sunset]
+
+*Step 10:* Click on the browse button and from the Local disk (C:) choose "shutdown.exe" and click on 'open'
+image::sunset.jpg[Sunset]
+
+*Step 11* In the add arguments box type '-s' for shutdown (optional)
+image::sunset.jpg[Sunset]
+
+*Step 12:* Click next and then finish to complete the task.
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Automating your computer&#8217;s shutdown through Task Scheduler</title>
+<date>2021-01-30</date>
+</info>
+<simpara role="data-line-1">#Scheduling-Tasks-in-Windows</simpara>
+<section xml:id="_automating_your_computers_shutdown_through_task_scheduler" role="data-line-4">
+<title>Automating your computer&#8217;s shutdown through Task Scheduler</title>
+<simpara role="data-line-6"><emphasis role="strong">To ensure the safe and efficient shutdown procedure of your computer system please use the following steps:</emphasis></simpara>
+<simpara role="data-line-9"><emphasis role="strong">Step 1:</emphasis> Click the start menu on the bottom left-hand corner on your computer screen</simpara>
+<simpara role="data-line-11"><emphasis role="strong">Step 2:</emphasis> To the bottom of the menu list you will see a search box. In this box enter the words 'Task scheduler'</simpara>
+<simpara role="data-line-13"><emphasis role="strong">Step 3:</emphasis> Click on the suggested application result called 'Task Scheduler'</simpara>
+<simpara role="data-line-15"><emphasis role="strong">Step 4:</emphasis> On the right-hand side of the task-scheduler, click on the options 'actions'</simpara>
+<simpara role="data-line-17"><emphasis role="strong">Step 5:</emphasis> Click on 'Create a basic task'</simpara>
+<simpara role="data-line-19"><emphasis role="strong">Step 6:</emphasis> Name the task (for example,'shutdown')</simpara>
+<simpara role="data-line-21"><emphasis role="strong">Step 7:</emphasis> Click on the trigger option under create task and select the 'daily' option</simpara>
+<simpara role="data-line-23"><emphasis role="strong">Step 8:</emphasis> Under the daily option select the start times of shutdown for each day (for example, 11 pm)</simpara>
+<simpara role="data-line-25"><emphasis role="strong">Step 9:</emphasis> Under the 'action' option select 'Start a program' and then click 'next'</simpara>
+<simpara role="data-line-27"><emphasis role="strong">Step 10:</emphasis> Click on the browse button and from the Local disk (C:) choose "shutdown.exe" and click on 'open'</simpara>
+<simpara role="data-line-29"><emphasis role="strong">Step 11</emphasis> In the add arguments box type '-s' for shutdown (optional)</simpara>
+<simpara role="data-line-31"><emphasis role="strong">Step 12:</emphasis> Click next and then finish to complete the task.</simpara>
+</section>
+</article>
