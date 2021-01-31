@@ -443,106 +443,56 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1 data-line-4">
 <h2 id="_automating_your_computers_shutdown_through_task_scheduler">Automating your computer&#8217;s shutdown through Task Scheduler</h2>
 <div class="sectionbody">
-<div class="paragraph data-line-6">
-<p><strong>To ensure the safe and efficient shutdown procedure of your computer system please use the following steps:</strong></p>
-</div>
-<div class="paragraph data-line-9">
+<div class="sect2 data-line-6">
+<h3 id="_to_ensure_the_safe_and_efficient_shutdown_procedure_of_your_computer_follow_these_steps">To ensure the safe and efficient shutdown procedure of your computer follow these steps:</h3>
+<div class="paragraph data-line-11">
 <p><strong>Step 1:</strong> Click the start menu on the bottom left-hand corner on your computer screen</p>
 </div>
-<div class="imageblock data-line-11">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
+<div class="paragraph data-line-14">
+<p><strong>Step 2:</strong> To the bottom of the menu list you will see a search box. In this box enter the words 'Task scheduler'</p>
 </div>
+<div class="paragraph data-line-16">
+<p>image:./images/search.png [width=70px][Search bar for windows]</p>
 </div>
-<div class="paragraph data-line-13">
-<p><strong>Step 2:</strong> To the bottom of the menu list you will see a search box. In this box enter the words <strong><span class="blue">Task scheduler</span></strong></p>
-</div>
-<div class="imageblock data-line-15">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
-</div>
-<div class="paragraph data-line-17">
+<div class="paragraph data-line-18">
 <p><strong>Step 3:</strong> Click on the suggested application result called 'Task Scheduler'</p>
 </div>
-<div class="imageblock data-line-19">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
-</div>
 <div class="paragraph data-line-21">
-<p><strong>Step 4:</strong> On the right-hand side of the task-scheduler, click on the options <strong><span class="blue">actions</span></strong></p>
+<p><strong>Step 4:</strong> Under the 'action' tab in the menu click on 'create basic task'
+<span class="image"><img src="./images/create-basic-task.jpg" alt="Create basic task option"></span></p>
 </div>
-<div class="imageblock data-line-23">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
+<div class="paragraph data-line-24">
+<p><strong>Step 5:</strong> Name the task (for example,'shutdown')
+<span class="image"><img src="./images/name-task.png" alt="Name the task"></span></p>
 </div>
+<div class="paragraph data-line-27">
+<p><strong>Step 6:</strong> Click on the trigger option under create task and select the 'daily' option</p>
 </div>
-<div class="paragraph data-line-25">
-<p><strong>Step 5:</strong> Click on <strong><span class="blue">Create a basic task</span></strong></p>
-</div>
-<div class="imageblock data-line-27">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
-</div>
-<div class="paragraph data-line-29">
-<p><strong>Step 6:</strong> Name the task (for example,'shutdown')</p>
-</div>
-<div class="imageblock data-line-31">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
+<div class="paragraph data-line-30">
+<p><strong>Step 7:</strong> Under the daily option select the start times of shutdown for each day (for example, 11 pm)
+<span class="image"><img src="./images/daily-scheduler.png" alt="Daily scheduler"></span></p>
 </div>
 <div class="paragraph data-line-33">
-<p><strong>Step 7:</strong> Click on the trigger option under create task and select the <strong><span class="blue">daily</span></strong> option</p>
+<p><strong>Step 8:</strong> Under the 'action' option select 'Start a program' and then click 'next'
+<span class="image"><img src="./images/task-scheduler-action.png" alt="Start a program option"></span></p>
 </div>
-<div class="imageblock data-line-35">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
+<div class="paragraph data-line-36">
+<p><strong>Step 9:</strong> Click on the browse button and from the Local disk (C:) choose "shutdown.exe" and click on 'open'
+<span class="image"><img src="./images/browse-local-disk.png" alt="Browse Local Disk"></span></p>
 </div>
+<div class="paragraph data-line-39">
+<p><strong>Step 10</strong> In the add arguments box type '-s' for shutdown (optional)</p>
 </div>
-<div class="paragraph data-line-37">
-<p><strong>Step 8:</strong> Under the daily option select the start times of shutdown for each day (for example, 11 pm)</p>
+<div class="paragraph data-line-42">
+<p><strong>Step 11:</strong> Click next and then click finish to complete the task</p>
 </div>
-<div class="imageblock data-line-39">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
-</div>
-<div class="paragraph data-line-41">
-<p><strong>Step 9:</strong> Under the <strong><span class="blue">action</span></strong> option select <strong><span class="blue">Start a program</span></strong> and then click <strong><span class="blue">next</span></strong></p>
-</div>
-<div class="imageblock data-line-43">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
-</div>
-<div class="paragraph data-line-45">
-<p><strong>Step 10:</strong> Click on the browse button and from the Local disk (C:) choose <strong><span class="blue">"shutdown.exe</span></strong> and click on open</p>
-</div>
-<div class="imageblock data-line-47">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
-</div>
-<div class="paragraph data-line-49">
-<p><strong>Step 11</strong> In the add arguments box type '-s' for shutdown (optional)</p>
-</div>
-<div class="imageblock data-line-51">
-<div class="content">
-<img src="sunset.jpg" alt="Sunset">
-</div>
-</div>
-<div class="paragraph data-line-53">
-<p><strong>Step 12:</strong> Click next and then finish to complete the task.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-01-30 21:48:34 +0100
+Last updated 2021-01-31 16:38:59 +0100
 </div>
 </div>
 </body>
