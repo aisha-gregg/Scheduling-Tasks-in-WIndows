@@ -1,43 +1,47 @@
 
 
 
-== Automating your computer's shutdown through Task Scheduler ==
+== Automating your computer's shutdown through Task Scheduler 
 
 === To ensure the safe and efficient shutdown procedure of your computer follow these steps: 
 
 
 
 
-*Step 1:* Click the start menu on the bottom left-hand corner on your computer screen
+*Step 1 :* Click the start menu on the bottom left-hand corner on your computer screen
 
 
-*Step 2:* To the bottom of the menu list you will see a search box. In this box enter the words 'Task scheduler'
+*Step 2 :* To the bottom of the menu list you will see a search box. In this box enter the words 'Task scheduler'
 
 image:./images/search.png[Search bar for windows]
 
-*Step 3:* Click on the suggested application result called 'Task Scheduler'
+*Step 3 :* Click on the suggested application result called 'Task Scheduler'
 
 
-*Step 4:* Under the 'action' tab in the menu click on 'create basic task'
+*Step 4 :* Under the 'action' tab in the menu click on 'create basic task'
+
 image:./images/create-basic-task.jpg[Create basic task option]
 
-*Step 5:* Name the task (for example,'shutdown')
+*Step 5 :* Name the task (for example,'shutdown')
+
 image:./images/name-task.png[Name the task]
 
-*Step 6:* Click on the trigger option under create task and select the 'daily' option
+*Step 6 :* Click on the trigger option under create task and select the 'daily' option
 
+*Step 7 :* Under the daily option select the start times of shutdown for each day (for example, 11 pm)
 
-*Step 7:* Under the daily option select the start times of shutdown for each day (for example, 11 pm)
 image:./images/daily-scheduler.png[Daily scheduler]
 
-*Step 8:* Under the 'action' option select 'Start a program' and then click 'next'
+*Step 8 :* Under the 'action' option select 'Start a program' and then click 'next'
+
 image:./images/task-scheduler-action.png[Start a program option]
 
-*Step 9:* Click on the browse button and from the Local disk (C:) choose "shutdown.exe" and click on 'open'
+*Step 9 :* Click on the browse button and from the Local disk (C:) choose "shutdown.exe" and click on 'open'
+
 image:./images/browse-local-disk.png[Browse Local Disk]
 
-*Step 10* In the add arguments box type '-s' for shutdown (optional)
+*Step 10 :* In the add arguments box type '-s' for shutdown (optional)
 
 
-*Step 11:* Click next and then click finish to complete the task
+*Step 11 :* Click next and then click finish to complete the task
 
